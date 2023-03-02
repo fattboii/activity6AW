@@ -14,7 +14,7 @@ class ProductController extends Controller
      */
     public function index()
     {
-        //
+        return view('Products.index');
     }
 
     /**
@@ -24,8 +24,16 @@ class ProductController extends Controller
      */
     public function create()
     {
-        //
+        return view('Products.create');
     }
+
+    public function editV()
+    {
+        return view('Products.edit');
+    }
+
+
+
 
     /**
      * Store a newly created resource in storage.
