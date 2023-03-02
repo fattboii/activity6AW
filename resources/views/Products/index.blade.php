@@ -7,6 +7,6 @@
     <title>View</title>
 </head>
 <body>
-    
+    <h1>View Prodcuts Here</h1>
 </body>
 </html>
